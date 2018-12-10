@@ -1,0 +1,21 @@
+{
+  "name": "binary-fountain-front-end-test",
+  "version": "1.0.0",
+  "description": "test server for binary fountain front end test",
+  "main": "",
+  "scripts": {
+    "start": "json-server --watch db.json --port 8001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binaryfountain/Interview.git"
+  },
+  "author": "binary fountain",
+  "license": "MIT",
+  "homepage": "https://github.com/binaryfountain/Interview",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.12.0",
+    "jsonfile": "^4.0.0"
+  }
+}
